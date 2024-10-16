@@ -147,6 +147,7 @@ Untuk menjalankan tes secara headless (tanpa membuka browser), gunakan perintah:
 
 ````bash
 npx cypress run --spec "cypress/e2e/saucedemoTests.cy.js"
+````
 
 
 ### Struktur Proyek
