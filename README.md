@@ -140,13 +140,13 @@ checkoutPage.isCompletedImageDisplayed().should("be.visible");
 Pastikan Cypress terinstal dalam proyek. Jika belum, instal Cypress dengan perintah berikut:
 
 ```bash
-npm install cypress --save-dev --headless
+npm install cypress --save-dev 
 ```
 
 Untuk menjalankan tes secara headless (tanpa membuka browser), gunakan perintah:
 
 ````bash
-npx cypress run --spec "cypress/e2e/saucedemoTests.cy.js"
+npx cypress run --spec "cypress/e2e/saucedemoTests.cy.js" --headless
 ````
 
 
